@@ -15,9 +15,9 @@
         <p class="marqueeText">no gods, no countries, no masters</p>
       </div>
       <div class="satsPriceContainer">
-          <button>+</button>
-          <p>100 sats ≈ 200 COP</p>
-          <button>PAY NOW</button>
+          <button id="addBtn" onclick="addSats()">+</button>
+          <p><span id="sats"></span> sats ≈ <span id="fiatPrice"></span> COP</p>
+          <button id="payBtn" onclick="paySats()">PAY NOW</button>
       </div>
       <footer>
         <p>Powered by Bitcoin and Bitcoin over Lightning Network</p>
