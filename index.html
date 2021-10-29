@@ -10,6 +10,9 @@
   <body>
     <div class="mainContainer">
       <img id="headImage" src="./images/head.jpg" alt="head" />
+      <br>
+      <a href="success.html">About</a>
+
       <h1 class="title">Crypto Payments</h1>
       <div class="marqueeContainer">
         <p class="marqueeText">no gods, no countries, no masters</p>
@@ -17,7 +20,7 @@
       <div class="satsPriceContainer">
           <button id="addBtn" onclick="addSats()">+</button>
           <p><span id="sats"></span> sats ≈ <span id="fiatPrice"></span> COP</p>
-          <button id="payBtn" onclick="paySats()">PAY NOW</button>
+          <button id="payBtn" onclick="generateInvoice()">PAY NOW</button>
       </div>
       <footer>
         <p>Powered by Bitcoin and Bitcoin over Lightning Network</p>
